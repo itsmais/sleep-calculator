@@ -1,52 +1,49 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Sleep Calculator</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />		
-		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-		<link rel="manifest" href="assets/img/site.webmanifest">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body >
 
-		<!-- Header -->
-			<header id="header">
-			</header>
+<head>
+    <title>Sleep Calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/site.webmanifest">
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
+<body>
 
-<div class="row  align-items-center content">
-	<div class="col-md-6 offset-md-3">
-		<h1>Wake Up &#9200; Time Calculator</h1>
-		<h3>uses the <a target="_blanket" href="https://www.healthline.com/health/sleep/sleep-calculator">REM sleep</a> formula to provide you with optimal sleep.&#128164;</h3>
-		<div class="row vertical-center-row main">
-			<div class="text-center col-md-12 col-md-offset-4" >
-			<p>If I sleep now, what time shall I wake up? &#127774;</p>
-			<button type="button" class="btn btn-secondary" onclick="sleepNow()">Calculate</button>
-			<p id="sleep-result"></br></p>
-			</div>
-		</div>
-	</div>
-</div> 
-			
+    <!-- Header -->
+    <header id="header">
+    </header>
 
 
-		<!-- Footer -->
-			<footer>
-			</br>
-				<p>Made with ❤ in Beirut, by <a target="_blank" href="https://twitter.com/mais_hatem">Mais</a>, in August 2020.
-				</p>
-			</footer>
+    <div class="content">
+        <div class="">
+            <h1 class="title">Wake Up ⌚ Time Calculator</h1>
+            <h3>uses the <a target="_blanket" href="https://www.healthline.com/health/sleep/sleep-calculator">REM sleep</a> formula to provide you with optimal sleep 🛌</h3>
+            <div class="main">
+                <div class="main-text">
+                    <p>If I sleep now, what time shall I wake up? &#127774;</p>
+                    <button type="button" class="btn-calc" onclick="sleepNow()">calculate</button>
+                    <p id="sleep-result">
+                        </br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/main.js"></script>
-			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	</body>
+
+    <!-- Footer -->
+    <footer>
+        Click <a href="https://github.com/itsmais/sleep-calculator" target="_blank">here</a> for source code.
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>

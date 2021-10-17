@@ -1,49 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    font-family: 'Andada Pro', serif;
+    color: var(--primary-text)
+}
 
-h1,h2{
-    font-family: 'Heebo', sans-serif;
+:root {
+    --primary-background: #E9DDD4;
+    --secondary-background: #E9DDD4;
+    --secondary-text: #900020;
+    --primary-text: #000000;
 }
-a{
-    color: #000;
+
+.title {
+    font-size: 40px;
 }
-h3{
+
+a {
+    color: var(--secondary-text);
+}
+
+body {
+    background-color: var(--primary-background);
+}
+
+h3 {
     margin-bottom: 20px;
     font-weight: lighter;
 }
-h1, h3, h2, footer, p{
+
+h1,
+h3,
+h2,
+footer,
+p {
     text-align: center;
 }
-h2{
-    color: #FF0000;
-    background-color: #FFFF00;
+
+h2 {
+    color: var(--pink);
 }
-footer{
+
+footer {
     font-size: small;
 }
-.main{
+
+.main {
     padding: 10px;
-    background-color: #00bcf2;
-    border-color: #f03a17;
+    margin: 75px;
+    background-color: var(--secondary-text);
+    border-color: var(--secondary-text);
     border-width: 3px;
+    border-radius: 10px;
     border-style: solid;
     font-family: 'Heebo', sans-serif;
 }
-input{
-    align-content: center;
-    text-align: center;
-    font-family: 'Heebo', sans-serif;
+
+.main p {
+    color: var(--secondary-background);
 }
 
-.main p{
-    color: #FFF;
+.main-text {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.sleep-now-btn{
+
+.btn-calc {
+    width: 150px;
+    color: var(--secondary-text);
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: var(--secondary-background);
+}
+
+.btn-calc:hover {
+    transform: scale(1.01);
+}
+
+input {
+    align-content: center;
+    text-align: center;
+}
+
+.sleep-now-btn {
     margin-bottom: 10px;
 }
-.time-result{
-    font-weight: 500;
-    text-decoration: underline;
+
+.time-result {
+    padding: 15px;
+    font-weight: 900;
+    font-size: 35px;
+    color: var(--secondary-background);
 }
-.content{
+
+.content {
     margin-top: 80px;
 }
